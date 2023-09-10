@@ -1,4 +1,4 @@
-const home_controller = (req, res) => {
-  res.send("<h1>Hello World! </h1>"); // render the view with an empty object as data to pass into it's template
+const home = (req, res) => {
+  res.send("<h1> You are now on Home controller </h1>");
 };
-module.exports = home_controller;
+module.exports = home;
